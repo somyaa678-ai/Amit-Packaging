@@ -482,7 +482,7 @@ margin-bottom:18px;
 .product-card:hover .product-icon{
     color:#B76E3C;
 }
-}
+
 
 /* ==========================
    WHY CHOOSE US
@@ -755,13 +755,13 @@ footer p{
 
 @media (max-width:768px){
 
-nav{
+.navbar{
     flex-direction:column;
     gap:20px;
     padding:20px;
 }
 
-nav ul{
+.nav-links{
     flex-wrap:wrap;
     justify-content:center;
     gap:18px;
@@ -779,17 +779,23 @@ nav ul{
 
 .hero-image{
     width:100%;
+    max-width:100%;
     height:280px;
     margin-top:40px;
     order:-1;
 }
 
 .hero h1{
-    font-size:42px;
+    font-size:34px;
+    line-height:1.2;
 }
 
+
+
 .hero p{
-    font-size:18px;
+    font-size:16px;
+    line-height:1.7;
+}
 }
 
 .buttons{
