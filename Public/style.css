@@ -190,7 +190,7 @@ transition:.3s;
 
 
 
-.primary:hover{
+.primary-btn:hover{
 
 background:#445823;
 
@@ -466,12 +466,12 @@ transition:.3s;
 
 .product-icon{
     font-size:55px;
-    color:556B2F;
+    color:#556B2F;
     margin-bottom:20px;
     transition:.3s;
 }
 
-..product-card h3{
+.product-card h3{
 
 font-size:28px;
 
@@ -749,4 +749,106 @@ footer p{
 
 .error{
     color:red;
+}/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+}
+
+.hero{
+    flex-direction:column;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.hero-text{
+    width:100%;
+}
+
+.hero-image{
+    width:100%;
+    height:280px;
+    margin-top:40px;
+    order:-1;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.primary-btn,
+.secondary{
+    width:100%;
+    max-width:280px;
+}
+
+.stats{
+    grid-template-columns:1fr;
+    padding:30px 20px;
+}
+
+.about{
+    flex-direction:column;
+    padding:60px 20px;
+}
+
+.about-left,
+.about-right{
+    width:100%;
+}
+
+.product-grid{
+    grid-template-columns:1fr;
+}
+
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.industry-grid{
+    grid-template-columns:1fr;
+}
+
+.contact-container{
+    grid-template-columns:1fr;
+}
+
+.products,
+.why-us,
+.process,
+.industries,
+.contact{
+    padding:70px 20px;
+}
+
+.process-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.arrow{
+    transform:rotate(90deg);
+}
+
 }
