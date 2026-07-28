@@ -89,27 +89,35 @@ color:#B76E3C;
 }
 
 
-
 .hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
 
-display:flex;
+    padding:120px 8% 80px;
 
-justify-content:space-between;
+    background:
+    linear-gradient(
+        to right,
+        rgba(248,245,236,0.95) 0%,
+        rgba(248,245,236,0.88) 25%,
+        rgba(248,245,236,0.55) 45%,
+        rgba(248,245,236,0.15) 65%,
+        rgba(248,245,236,0) 100%
+    ),
+    url("images/factorybg.png");
 
-align-items:center;
-
-padding:80px;
-
-min-height:80vh;
-
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 
 
 .hero-text{
-
-width:50%;
-
+    max-width:650px;
+    position:relative;
+    z-index:2;
 }
 
 
@@ -232,23 +240,6 @@ color:white;
 
 
 
-.hero-image{
-
-width:45%;
-
-height:600px;
-
-background:#ddd;
-
-border-radius:25px;
-
-background-image:url("images/hero.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-}/* -------------------------
 STATS
 ------------------------- */
 
