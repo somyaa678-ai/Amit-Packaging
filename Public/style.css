@@ -179,7 +179,7 @@ gap:20px;
 
 
 .primary-btn{
-
+display: inline-block;
 background:#556B2F;
 
 color:white;
@@ -205,39 +205,6 @@ transition:.3s;
 background:#445823;
 
 }
-
-
-
-.secondary{
-
-background:white;
-
-border:2px solid #556B2F;
-
-padding:18px 35px;
-
-font-size:18px;
-
-border-radius:10px;
-
-cursor:pointer;
-
-color:#556B2F;
-
-transition:.3s;
-
-}
-
-
-
-.secondary:hover{
-
-background:#556B2F;
-
-color:white;
-
-}
-
 
 
 STATS
